@@ -4,10 +4,14 @@ import { Container, Hero, Preview } from './styles'
 import homeImage from '../../assets/home.png'
 import Image from 'next/image'
 import { ClaimUsernameForm } from './components/ClaimUsernameForm'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <Container>
+      <Head>
+        <title>Dev Call</title>
+      </Head>
       <Hero>
         <Heading size="4xl">Agendamento descomplicado</Heading>
         <Text size="xl">
