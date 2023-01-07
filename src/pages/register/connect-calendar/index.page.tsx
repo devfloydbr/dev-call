@@ -1,14 +1,12 @@
 import { Container, Header } from '../styles'
 import { Button, Heading, MultiStep, Text } from '@devfloydbr-ui/react'
-
-import { useRouter } from 'next/router'
 import { ConnectBox, ConnectItem } from './styles'
 import { ArrowRight } from 'phosphor-react'
 
 export default function Register() {
-  const router = useRouter()
+  /*  const router = useRouter()
 
-  const handleRegister = async () => {}
+  const handleRegister = async () => {} */
 
   return (
     <Container>
