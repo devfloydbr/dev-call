@@ -1,4 +1,4 @@
-import { Box, styled } from '@devfloydbr-ui/react'
+import { Box, styled, Text } from '@devfloydbr-ui/react'
 
 export const ConnectBox = styled(Box, {
   marginTop: '$6',
@@ -15,5 +15,10 @@ export const ConnectItem = styled('div', {
   padding: '$4 $6',
   boderRadius: '$md',
 
-  marginBottom: '$2',
+  marginBottom: '$4',
+})
+
+export const AuthErrorText = styled(Text, {
+  color: '$red500',
+  marginBottom: '$4',
 })
